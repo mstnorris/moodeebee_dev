@@ -35,3 +35,8 @@ Route::get('four', function()
 {
     return "4";
 });
+
+Route::get('five', function()
+{
+    return "5";
+});
