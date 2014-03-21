@@ -23,5 +23,10 @@ Route::get('test', function()
 
 Route::get('contact', function()
 {
-    return "Show the contact form";
+    return "Show the contact form.";
+});
+
+Route::get('about', function()
+{
+    return "Show the about page.";
 });
