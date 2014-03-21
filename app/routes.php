@@ -16,17 +16,22 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::get('test', function()
+Route::get('one', function()
 {
-    return "Hello MooDeeBee Dev team!";
+    return "1";
 });
 
-Route::get('contact', function()
+Route::get('two', function()
 {
-    return "Show the contact form.";
+    return "2";
 });
 
-Route::get('about', function()
+Route::get('three', function()
 {
-    return "Show the about page.";
+    return "3";
+});
+
+Route::get('four', function()
+{
+    return "4";
 });
