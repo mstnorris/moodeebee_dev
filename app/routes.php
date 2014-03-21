@@ -20,3 +20,8 @@ Route::get('test', function()
 {
     return "Hello MooDeeBee Dev team!";
 });
+
+Route::get('contact', function()
+{
+    return "Show the contact form";
+});
