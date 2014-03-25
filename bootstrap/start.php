@@ -24,10 +24,9 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(function()
-{
-    return getenv('ENV') ?: 'development';
-});
+$env = $app->detectEnvironment(array(
+    'local' => 'you-machine-name',
+)});
 
 /*
 |--------------------------------------------------------------------------
