@@ -40,3 +40,8 @@ Route::get('five', function()
 {
     return "5";
 });
+
+Route::get('six', function()
+{
+    return "6";
+});
