@@ -40,7 +40,7 @@ class ArtistsController extends \BaseController {
 	 */
 	public function show($id)
 	{
-		//
+		return 'show artist with the id of: ' + $id;
 	}
 
 	/**
