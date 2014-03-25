@@ -1,0 +1,1 @@
+/Users/Mike/Documents/git/moodeebee/app/views/artists/show.blade.php
