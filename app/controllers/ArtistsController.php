@@ -9,7 +9,7 @@ class ArtistsController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		return 'show all artists';
 	}
 
 	/**
