@@ -2,3 +2,4 @@
 Thumbs.db
 .htaccess
 public/error_log
+app/config/database.php
