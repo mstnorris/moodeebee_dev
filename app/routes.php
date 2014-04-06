@@ -22,7 +22,7 @@ Route::get('users', function()
     return "Users!";
 });
 
-Route::resource('users', 'UsersController');
+//Route::resource('users', 'UsersController');
 Route::resource('artists', 'ArtistsController');
 Route::resource('albums', 'AlbumsController');
 Route::resource('tracks', 'TracksController');
