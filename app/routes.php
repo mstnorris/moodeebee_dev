@@ -16,6 +16,12 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
+Route::get('users', function()
+{
+    //return View::make('hello');
+    return "Users!";
+});
+
 Route::resource('users', 'UsersController');
 Route::resource('artists', 'ArtistsController');
 Route::resource('albums', 'AlbumsController');
