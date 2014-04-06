@@ -50,3 +50,8 @@ Route::get('six', function()
 {
     return "6";
 });
+
+Route::get('seven', function()
+{
+    return "7";
+});
